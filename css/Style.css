@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=Cairo&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    margin: 25px auto;
+}
+
+.img-logo {
+    display: flex;
+    text-align: center;
+    margin-right: 30px;
+    padding: 5px;
+
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-item {
+    margin-right: 25px;
+}
+
+#first {
+    color: red;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.main {
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.images-famous {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.famous {
+    margin-right: 15px;
+    width: 100%;
+}
+
+p {
+    font-size: 1.2rem;
+    color: rgb(43, 41, 41);
+}
+
+.details {
+    height: 35px;
+    width: 100px;
+    height: auto;
+    background-color: #dc3545;
+    color: rgb(210, 221, 222);
+}
+.pop{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+}
+
+hr {
+    width: 75px;
+    margin: 15px;
+    padding: 5px;
+    border-top: 5px solid rgb(61, 58, 58);
+}
+
+h2 {
+    color: rgb(71, 70, 70);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+footer {
+
+    height: 150px;
+    background-color: #8f8687;
+}
+
+footer h2{
+margin: 35px auto ;
+padding: 15px ;
+
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+footer ul{
+    display: inline-flex;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a {
+    color: white;
+    font-size: 1.2rem;
+    margin: 50px;
+}
+
+li a:hover {
+    color: red;
+    text-decoration: none;
+}
